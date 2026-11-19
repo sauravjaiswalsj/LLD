@@ -1,4 +1,4 @@
 package domain;
 
-public record Customer() {
+public record Customer(String cifId, String name) {
 }

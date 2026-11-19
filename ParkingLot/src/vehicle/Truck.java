@@ -1,4 +1,4 @@
-package model;
+package vehicle;
 
 import enums.VehicleSize;
 
@@ -10,7 +10,7 @@ public class Truck implements Vehicle{
     }
     @Override
     public VehicleSize getVehicleSize() {
-        return VehicleSize.MEDIUM;
+        return VehicleSize.LARGE;
     }
 
     @Override
